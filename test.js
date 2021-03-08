@@ -1,9 +1,9 @@
-function fruits() {
-    var fruit = ["strawberry", "guava", "kiwi", "mangoes", "tomatoes"]
-    fruit.forEach((fruit) => {
-        console.log(fruit);
-    });
+function fruits_list(){
+     fruits_list = ["strawberry", "guava", "kiwi", "mangoes", "tomatoes"];
+    fruits_list.forEach(element=>console.log(element)); 
+        console.log(fruit_list[0]);
+    
 
 
 }
-fruits();
+fruits_list();
